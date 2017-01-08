@@ -1,6 +1,6 @@
 # nodemongo
-Create API with nodejs, express and mongoDB
-<img src ="http://mean.io/wp-content/themes/twentysixteen-child/images/nodejs.png">
+Create API with nodejs, express and mongoDB <br>
+<img src ="http://mean.io/wp-content/themes/twentysixteen-child/images/nodejs.png"> <br>
 Steps : <br>
 <ol>
 <li>Create New Folder </li>
