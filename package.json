@@ -1,0 +1,22 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "practicem api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeyarajcs/nodemongo.git"
+  },
+  "author": "jeyaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeyarajcs/nodemongo/issues"
+  },
+  "homepage": "https://github.com/jeyarajcs/nodemongo#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
