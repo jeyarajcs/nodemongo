@@ -80,3 +80,27 @@ module.exports.updateBook = function(id, book, options, callback){
 
 	Book.findOneAndUpdate(query, update, options, callback);
 }
+
+// Delete Book
+
+module.exports.deleteBook = function(id, callback){
+
+	var query  = {
+		_id: id
+	}
+
+	Book.remove(query, callback);
+}
+
+
+
+/*{
+	"title":"I Too Had a Love Story",
+"genre":"Romance",
+"description":"This novel is based on a real life event that happened with Ravinder Singh, the author. This story is about two people Ravin and khushi who are looking ",
+"author":"Ravinder Singh",
+"publisher":"Penguin Random House India",
+"pages":"216",
+"image_url":"http://ecx.images-amazon.com/images/I/511pQnokJqL._SX324_BO1,204,203,200_.jpg",
+"buy_url":"http://www.amazon.in/Too-Had-Love-Story-Book/dp/0143418769/ref=sr_1_4?s=books&ie=UTF8&qid=1485799835&sr=1-4&keywords=romantic+books"
+}*/
