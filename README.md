@@ -10,7 +10,9 @@ Steps : <br>
 <li>"npm init" and give the information about project</li>
 </ol>
 In package.json file add dependencies
-``` "dependencies":{
+
+```
+"dependencies":{
   "express":"*",
   "body-parser":"*",
   "mongoose":"*"
