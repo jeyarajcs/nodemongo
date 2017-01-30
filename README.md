@@ -18,4 +18,7 @@ In package.json file add dependencies
   "mongoose":"*"
 }
 and then run "npm install" command in your terminal
+```
+the above commands will be install dependencies under node_modules folder.<br>
 
+Then create app.js file in the project folder
