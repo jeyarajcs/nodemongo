@@ -1,8 +1,8 @@
 {
-  "name": "nodeapi",
+  "name": "bookstore",
   "version": "1.0.0",
-  "description": "practicem api",
-  "main": "index.js",
+  "description": "book store apllication using rest api",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/jeyarajcs/nodemongo.git"
   },
+  "dependencies":{
+    "express": "*",
+    "body-parser":"*",
+    "mongoose":"*"
+  },
   "author": "jeyaraj",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jeyarajcs/nodemongo/issues"
   },
-  "homepage": "https://github.com/jeyarajcs/nodemongo#readme",
-  "dependencies": {
-    "express": "^4.14.0"
-  }
+  "homepage": "https://github.com/jeyarajcs/nodemongo#readme"
 }
