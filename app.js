@@ -3,7 +3,7 @@ var app = new express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-
+app.use(express.static(__dirname + '/client'));
 app.use(bodyParser.json());
 
 Genre = require('./models/genre');
@@ -18,6 +18,7 @@ var db = mongoose.connection;
 app.get('/', function(req, res){
 
 	res.send("Hello world");
+	//res.render('index.html');
 
 })
 
