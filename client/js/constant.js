@@ -1,0 +1,1 @@
+bookStoreApp.constant('APIURL', 'https://restbookstore.herokuapp.com/');
