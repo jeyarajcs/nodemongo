@@ -15,6 +15,9 @@
     "body-parser":"*",
     "mongoose":"*"
   },
+  "engines": {
+    "node": "*"
+  },
   "author": "jeyaraj",
   "license": "ISC",
   "bugs": {
