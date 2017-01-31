@@ -19,6 +19,7 @@ app.get('/', function(req, res){
 
 	//res.send("Hello world");
 	res.render('index.html');
+
 })
 
 app.get('/api/genres', function(req, res){
