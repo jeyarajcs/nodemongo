@@ -17,8 +17,8 @@ var db = mongoose.connection;
 
 app.get('/', function(req, res){
 
-	//res.send("Hello world");
-	res.render('index.html');
+	res.send("Hello world");
+	//res.render('index.html');
 
 })
 
