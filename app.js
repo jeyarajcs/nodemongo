@@ -6,6 +6,15 @@ var mongoose = require('mongoose');
 app.use(express.static(__dirname + '/client'));
 app.use(bodyParser.json());
 
+var allowCrossDomain = function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', "*");
+    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.header('Access-Control-Allow-Headers', 'Content-Type,X-Requested-With');
+    next();
+}
+
+app.use(allowCrossDomain);
+
 Genre = require('./models/genre');
 Book = require('./models/book');
 // connect to mongoose
