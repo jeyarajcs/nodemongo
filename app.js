@@ -19,9 +19,9 @@ Genre = require('./models/genre');
 Book = require('./models/book');
 // connect to mongoose
 var port = process.env.PORT || 8080;
-//mongoose.connect("mongodb://localhost/bookstore");
+mongoose.connect("mongodb://localhost/restbookstore");
 
-mongoose.connect("mongodb://jeyarajbookstore:jeyarajbookstore@ds137729.mlab.com:37729/bookstore")
+//mongoose.connect("mongodb://jeyarajbookstore:jeyarajbookstore@ds137729.mlab.com:37729/bookstore")
 var db = mongoose.connection;
 
 app.get('/', function(req, res){
